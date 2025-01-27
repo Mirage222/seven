@@ -1,19 +1,10 @@
-bread = True 
-cheese = True 
-egg = True
-meat = True
+police = int(input("Сколько вас?:" ))
 
-if bread and cheese and egg and meat:
-    recommendation = "Чизбургер"
-elif bread and egg and meat:
-    recommendation = "Гамбургер"
-elif bread and cheese:
-    recommendation = "Бутерброд"
-elif bread and egg:
-    recommendation = "Омлет"
-elif bread and meat:
-    recommendation = "Котлеты"
+if police <= 5:
+    print("Оцйвацадщй")
+
+elif 5 <= police <= 10:
+    print("Неееееееет")
+
 else:
-    recommendation = "Недостаточно ингредиентов для приготовления блюда"
-
-print(f"Рекомендация: {recommendation}")
+    print("даааааааааа")
