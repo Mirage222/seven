@@ -1,0 +1,1131 @@
+.slovo {
+    position: absolute;
+    top: 10px;
+    left: 650px;
+}
+
+.sign {
+    background-color: rgba(19, 166, 186, 1);
+    ;
+    /* фон за текстом */
+    padding: 10px;
+    /* внутренние отступы */
+    display: inline-block;
+    /* чтобы фон обтекал текст */
+    border-radius: 5px;
+    /* скругление углов (по желанию) */
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 1200px;
+}
+
+.text1 {
+    position: absolute;
+    font-weight: bold;
+    top: 200px;
+    left: 500px;
+    font-size: 45px;
+}
+
+.text2 {
+    position: absolute;
+    font-weight: bold;
+    top: 300px;
+    left: 550px;
+    font-size: 45px;
+}
+
+.ex1 {
+    position: absolute;
+    top: 400px;
+    left: 520px;
+    font-size: 15px;
+}
+
+.container {
+    width: 100%;
+    height: 2030px;
+    background: rgba(251, 237, 218, 1);
+}
+
+.ex2 {
+    position: absolute;
+    width: 1000px;
+    height: 272.6123046875;
+    background: white;
+    top: 600px;
+    left: 250px;
+    border-radius: 20px;
+}
+
+.Rent {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-size: 30px;
+
+    font-family: Noto Serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.Rent a {
+    color: black;
+    text-decoration: none;
+}
+
+.buy {
+    position: absolute;
+    top: 30px;
+    left: 180px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(204, 207, 208, 1);
+}
+
+.sell {
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(204, 207, 208, 1);
+}
+
+a {
+    text-decoration: none;
+}
+
+.sell a {
+    color: rgba(204, 207, 208, 1);
+}
+
+.buy a {
+    color: rgba(204, 207, 208, 1);
+}
+
+.img1 {
+    position: absolute;
+    top: 130px;
+    left: 50px;
+
+}
+
+.loc {
+    position: absolute;
+    top: 135px;
+    left: 75px;
+    color: rgba(103, 112, 113, 1);
+
+}
+
+.img2 {
+    position: absolute;
+    top: 130px;
+    left: 300px;
+}
+
+.type {
+    position: absolute;
+    top: 135px;
+    left: 330px;
+    color: rgba(103, 112, 113, 1);
+}
+
+.price {
+    position: absolute;
+    top: 135px;
+    left: 530px;
+    color: rgba(103, 112, 113, 1);
+}
+
+.img3 {
+    position: absolute;
+    top: 130px;
+    left: 500px;
+}
+
+.lost {
+    width: 100%;
+    height: 1000px;
+}
+
+.city {
+    position: absolute;
+    top: 160px;
+    left: 60px;
+    width: 191px;
+    height: 50px;
+    font-size: 35px;
+}
+
+.delux {
+    position: absolute;
+    top: 160px;
+    left: 325px;
+    width: 191px;
+    height: 50px;
+    font-size: 35px;
+}
+
+.money {
+    position: absolute;
+    top: 160px;
+    left: 520px;
+    width: 191px;
+    height: 50px;
+    font-size: 35px;
+}
+
+.search {
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 130px;
+    left: 750px;
+    width: 200px;
+    height: 50px;
+    background: rgba(19, 166, 186, 1);
+    text-align: center;
+
+    font-family: Noto Serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+
+}
+
+.search a {
+    color: white;
+    text-decoration: none;
+}
+
+.text-box{
+    margin-top: 10px
+}
+.img4 {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    top: 130px;
+    left: -1000px;
+    z-index: 10;
+    
+}
+.new {
+    position: absolute;
+    top: 2300px;
+    left: 100px;
+    width: 545px;
+    height: 91px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.idk {
+    position: absolute;
+    top: 2350px;
+    left: 100px;
+    width: 1000px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(103, 112, 113, 1);
+
+
+}
+.newpage {
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    top: 2450px;
+    left: 100px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+}
+.home1 {
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    height: 250px;
+    width: 1000px;
+    font-size: 25px;
+}
+.img5 {
+    position: absolute;
+    top: 10px;
+    left: 13px;
+    height: 250px;
+    width: 1000px;
+    font-size: 25px;
+}
+.usa {
+    position: absolute;
+    top: 350px;
+    left: 40px;
+    height: 250px;
+    width: 1000px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.money2 {
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    height: 250px;
+    width: 1000px;
+    font-size: 45px;
+}
+.beds {
+    position: absolute;
+    top: 480px;
+    left: 25px;
+    height: 250px;
+    width: 1000px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.bath {
+    position: absolute;
+    top: 480px;
+    left: 135px;
+    height: 250px;
+    width: 1000px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.sqft {
+    position: absolute;
+    top: 480px;
+    left: 235px;
+    height: 250px;
+    width: 1000px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.details {
+    position: absolute;
+    top: 550px;
+    left: 10px;
+    height: 50px;
+    width: 350px;
+    font-size: 15px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: bold;
+    position: absolute;
+    background: rgba(19, 166, 186, 1);
+    text-align: center;
+
+    font-family: Noto Serif;
+    font-weight: 200px;
+    font-size: 28px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+}
+.details a {
+    color: white;
+    text-decoration: none;
+}
+.newpage2 {
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    top: 1px;
+    left: 450px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+}
+.home2 {
+    position: absolute;
+    top: 320px;
+    left: 35px;
+    height: 250px;
+    width: 1000px;
+    font-size: 25px;
+}
+.usa2 {
+    position: absolute;
+    top: 350px;
+    left: 35px;
+    height: 250px;
+    width: 1000px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.money3 {
+    position: absolute;
+    top: 400px;
+    left: 35px;
+    height: 250px;
+    width: 1000px;
+    font-size: 45px;
+}
+.beds2 {
+    position: absolute;
+    top: 480px;
+    left: 25px;
+    height: 250px;
+    width: 1000px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.bath2 {
+    position: absolute;
+    top: 480px;
+    left: 135px;
+    height: 250px;
+    width: 1000px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.sqft2 {
+    position: absolute;
+    top: 480px;
+    left: 235px;
+    height: 250px;
+    width: 1000px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.img6 {
+    position: absolute;
+    top: 13px;
+    left: 11px;
+    height: 250px;
+    width: 1000px;
+    font-size: 25px;
+}
+.details2 {
+    position: absolute;
+    top: 550px;
+    left: 10px;
+    height: 50px;
+    width: 350px;
+    font-size: 15px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: bold;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgba(19, 166, 186, 1);
+
+    font-family: Noto Serif;
+    font-weight: 200px;
+    font-size: 28px;
+    line-height: 50px;
+    letter-spacing: 0%;
+}
+.details2 a {
+    color: rgba(19, 166, 186, 1);
+
+    text-decoration: none;
+}
+.newpage3 {
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    top: 1px;
+    left: 450px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+}
+.home3 {
+    position: absolute;
+    top: 320px;
+    left: 35px;
+    height: 250px;
+    width: 1000px;
+    font-size: 25px;
+}
+.usa3 {
+    position: absolute;
+    top: 350px;
+    left: 35px;
+    height: 250px;
+    width: 1000px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.money3 {
+    position: absolute;
+    top: 400px;
+    left: 35px;
+    height: 250px;
+    width: 1000px;
+    font-size: 45px;
+}
+.beds3 {
+    position: absolute;
+    top: 480px;
+    left: 25px;
+    height: 250px;
+    width: 1000px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.bath3 {
+    position: absolute;
+    top: 480px;
+    left: 135px;
+    height: 250px;
+    width: 1000px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.sqft3 {
+    position: absolute;
+    top: 480px;
+    left: 235px;
+    height: 250px;
+    width: 1000px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.img7 {
+    position: absolute;
+    top: 13px;
+    left: 11px;
+    height: 250px;
+    width: 1000px;
+    font-size: 25px;
+}
+.details3 {
+    position: absolute;
+    top: 550px;
+    left: 10px;
+    height: 50px;
+    width: 350px;
+    font-size: 15px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: bold;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgba(19, 166, 186, 1);
+
+    font-family: Noto Serif;
+    font-weight: 200px;
+    font-size: 28px;
+    line-height: 50px;
+    letter-spacing: 0%;
+}
+.details3 a {
+    color: rgba(19, 166, 186, 1);
+    
+    text-decoration: none;
+
+}
+.img8 {
+    position: absolute;
+    top: 780px;
+    left: 250px;
+    height: 250px;
+    width: 1000px;
+    font-size: 25px;
+}
+.img9 {
+    position: absolute;
+    top: 770px;
+    left: 320px;
+    height: 80px;
+    width: 80px;
+    font-size: 25px;
+    background-color: purple;
+    border-radius: 20px;
+}
+.text3 {
+    position: absolute;
+    top: 1200px;
+    left: 1px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.img10 {
+    position: absolute;
+    top: 1370px;
+    left: 1px;
+    height: 100px;
+    width: 100px;
+    font-size: 25px;
+    background-color:rgba(251, 252, 237, 1);
+
+}
+.bigtext1 {
+    position: absolute;
+    top: 1380px;
+    left: 110px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.smalltext1 {
+    position: absolute;
+    top: 1445px;
+    left: 110px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(103, 112, 113, 1);
+}
+.img11 {
+    position: absolute;
+    top: 1550px;
+    left: 1px;
+    height: 100px;
+    width: 100px;
+    font-size: 25px;
+    background-color:rgba(251, 252, 237, 1);
+}
+.bigtext2 {
+    position: absolute;
+    top: 1560px;
+    left: 110px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.smalltext2 {
+    position: absolute;
+    top: 1625px;
+    left: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(103, 112, 113, 1);
+}
+.img12 {
+    position: absolute;
+    top: 1730px;
+    left: 1px;
+    height: 100px;
+    width: 100px;
+    font-size: 25px;
+    background-color:rgba(251, 252, 237, 1);
+}
+.bigtext3 {
+    position: absolute;
+    top: 1740px;
+    left: 110px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.smalltext3 {
+    position: absolute;
+    top: 1805px;
+    left: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(103, 112, 113, 1);
+}
+.img13 {
+    position: absolute;
+    top: 900px;
+    left: -1000px;
+    font-size: 25px;
+}
+.img14 {
+    position: absolute;
+    top: 1100px;
+    left: -900px;
+    font-size: 20px;
+}
+.news {
+    position: absolute;
+    top: 2500px;
+    left: -900px;
+    width: 545px;
+    height: 91px;
+    font-family: Noto Serif;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 91px;
+    letter-spacing: 0%;
+
+}
+.over {
+    font-family: Noto Serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    position:absolute;
+    top: 2700px;
+    left: -900px;
+    width: 500px;
+
+}
+.number1 {
+    position: absolute;
+    top: 2850px;
+    left: -900px;
+    width: 545px;
+    height: 91px;
+    font-family: Noto Serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 91px;
+    letter-spacing: 0%;
+}
+.number2 {
+    position: absolute;
+    top: 2850px;
+    left: -680px;
+    width: 545px;
+    height: 91px;
+    font-family: Noto Serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 91px;
+    letter-spacing: 0%;
+}
+.number3 {
+    position: absolute;
+    top: 2850px;
+    left: -460px;
+    width: 545px;
+    height: 91px;
+    font-family: Noto Serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 91px;
+    letter-spacing: 0%;
+}
+.minitext1 {
+    position: absolute;
+    top: 2920px;
+    left: -900px;
+    width: 520px;
+    height: 91px;
+    font-family: Noto Serif;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    color: rgba(103, 112, 113, 1);
+}
+.minitext2 {
+    position: absolute;
+    top: 2920px;
+    left: -680px;
+    width: 520px;
+    height: 91px;
+    font-family: Noto Serif;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    color: rgba(103, 112, 113, 1);
+}
+.minitext3 {
+    position: absolute;
+    top: 2920px;
+    left: -460px;
+    width: 520px;
+    height: 91px;
+    font-family: Noto Serif;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    color: rgba(103, 112, 113, 1);
+}
+.img15 {
+    position: absolute;
+    top: 2300px;
+    left: -200px;
+    font-size: 25px;
+}
+.img16 {
+    position: absolute;
+    top: 2200px;
+    left: -300px;
+    font-size: 20px;
+}
+.newpage4 {
+    position: absolute;
+    width: 400px;
+    height: 570px;
+    background: rgb(255, 255, 255);
+    top: 2400px;
+    left: -100px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+}
+.house {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    height: 250px;
+    width: 1000px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.person1 {
+    position: absolute;
+    top: 320px;
+    left: 25px;
+    height: 250px;
+    width: 1000px;
+    font-size: 25px;
+}
+.person2 {
+    position: absolute;
+    top: 320px;
+    left: 50px;
+    height: 250px;
+    width: 1000px;
+    font-size: 25px;
+}
+.person3 {
+    position: absolute;
+    top: 320px;
+    left: 75px;
+    height: 250px;
+    width: 1000px;
+    font-size: 25px;
+}
+.person4 {
+    position: absolute;
+    top: 320px;
+    left: 100px;
+    height: 250px;
+    width: 1000px;
+    font-size: 25px;
+}
+.talented {
+    position: absolute;
+    top: 340px;
+    left: 170px;
+    height: 250px;
+    width: 400px;
+    font-size: 15px;
+}
+.longtext {
+    position: absolute;
+    top: 400px;
+    left: 25px;
+    height: 350px;
+    width: 355px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.share {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    height: 350px;
+    width: 355px;
+    font-size: 15px;
+}
+.number5 {
+    position: absolute;
+    top: 510px;
+    left: 350px;
+    height: 350px;
+    width: 355px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.comments {
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    height: 350px;
+    width: 355px;
+    font-size: 15px;
+}
+.number4 {
+    position: absolute;
+    top: 510px;
+    left: 200px;
+    height: 350px;
+    width: 355px;
+    font-size: 15px;
+    color: rgba(103, 112, 113, 1);
+}
+.newpage5 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    top: 240px;
+    left: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+}
+.save {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+}
+.newpage6 {
+    position: absolute;
+    width: 250px;
+    height: 270px;
+    background: rgb(255, 255, 255);
+    top: 200px;
+    left: -440px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+}
+.icon {
+    position: absolute;
+    top: 10px;
+    left: 88px;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+}
+.sometext1 {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+}
+.sometext2 {
+    position: absolute;
+    top: 120px;
+    left: 90px;
+    height: 40px;
+    width: 200px;
+    font-size: 14px;
+    color: rgba(204, 207, 208, 1);
+}
+.post {
+    position: absolute;
+    top: 160px;
+    left: 15px;
+    height: 40px;
+    width: 200px;
+    font-size: 14px;
+    color: rgba(103, 112, 113, 1);
+}
+.follow {
+    position: absolute;
+    top: 160px;
+    left: 150px;
+    height: 40px;
+    width: 200px;
+    font-size: 14px;
+    color: rgba(103, 112, 113, 1);
+}
+.details4 {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 10px;
+    background: rgba(119, 45, 139, 1);
+    border-radius: 20px;
+
+    font-family: Noto Serif;
+    font-weight: 200px;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0%;
+}
+.details4 a {
+    color: white;
+    text-decoration: none;
+}
+.details5 {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+
+    font-family: Noto Serif;
+    font-weight: 200px;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0%;
+}
+.details5 a {
+    color: rgba(103, 112, 113, 1);
+    text-decoration: none;
+}
+.coolicon {
+    position: absolute;
+    top: 210px;
+    left: 85px;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    color:aliceblue;
+}
+.coolicon a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.coolicon1 {
+    position: absolute;
+    top: 220px;
+    left: 190px;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+}
+.coolicon1 a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.container2 {
+    width: 2000px;
+    height: 1000px;
+    position: absolute;
+    left: -1000px;
+    top: 700px;
+    background: rgba(251, 237, 218, 1);
+}
+.man {
+    position: absolute;
+    top: -235px;
+    left: 200px;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+.sometext12 {
+    position: absolute;
+    top: 300px;
+    left: 1200px;
+    width: 1000px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(19, 166, 186, 1);
+}
+.customer {
+    position: absolute;
+    top: 350px;
+    left: 1200px;
+    width: 600px;
+    height: 50px;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgba(2, 17, 18, 1);
+}
+.verybigtext {
+    position: absolute;
+    top: 550px;
+    left: 1200px;
+    width: 520px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(2, 17, 18, 1);
+}
+.autor {
+    position: absolute;
+    top: 750px;
+    left: 1200px;
+    width: 600px;
+    height: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(2, 17, 18, 1);
+}
+.customer1 {
+    position: absolute;
+    top: 820px;
+    left: 1200px;
+    width: 600px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(103, 112, 113, 1);
+}
+.idk8 {
+    position: absolute;
+    top: 300px;
+    left: 950px;
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.idk9 {
+    position: absolute;
+    top: 150px;
+    left: 1600px;
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container3 {
+    width: 2000px;
+    height: 1000px;
+    position: absolute;
+    left: -1000px;
+    top: 1500px;
+    background: white
+}
+.sometext22 {
+    position: absolute;
+    top: -150px;
+    left: 1400px;
+    width: 500px;
+    height: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    color: black
+}
+.longtext22 {
+    position: absolute;
+    top: 20px;
+    left: 1400px;
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(103, 112, 113, 1);      
+}
+.png1 {
+    position: absolute;
+    top: -200px;
+    left: 1230px;
+    width: 200px;
+    height: 200px;
+}
+.input-field {
+    position: absolute;
+    top: -50px;
+    left: 2100px;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+}

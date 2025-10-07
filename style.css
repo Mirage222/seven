@@ -1,0 +1,79 @@
+CSS
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carton{
+    position: relative;
+    padding: 20px;
+    background: lightgray;
+    width: 300px;
+}
+.new{
+    position: absolute;
+}
+
+.buy{
+    position: absolute;
+    left: 240px;
+}
+
+.banner{
+    top: 50px;
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background: linear-gradient(142deg,rgba(76, 0, 255, 1) 0%, rgba(52, 0, 120, 1) 38%, rgba(0, 0, 0, 1) 100%);
+}
+
+.h2{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 50%;
+    right: 50%;
+
+}
+
+.podrobnee{
+    position:absolute;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+}
+
+.chess-board {
+    position: relative;
+    top: 100px;
+    left: 50%;
+    width: 400px; 
+    height: 400px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .cell {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease;
+  }
+  
+
+  .white {
+    background-color: #f0d9b5;
+  }
+  
+  .black {
+    background-color: #b58863;
+  }
+  
+
+  .cell:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    z-index: 1;
+  }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Ввод текста в div</title>
+  <link rel="stylesheet" href="/test.css">
+</head>
+<body>
+
+  <div id="wrapper">
+    <div id="textInputBlock">
+      <h3>Напишите что-нибудь:</h3>
+      <textarea id="userText" placeholder="Ваш текст здесь..."></textarea><br>
+      <button onclick="handleSubmit()">Отправить</button>
+    </div>
+  </div>
+
+  <script>
+    function handleSubmit() {
+      const text = document.getElementById('userText').value.trim();
+      if (text) {
+        alert("Вы написали: " + text);
+      } else {
+        alert("Пожалуйста, введите текст.");
+      }
+    }
+  </script>
+
+</body>
+</html>

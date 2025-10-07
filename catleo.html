@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя первая страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #9188E5;
+            color: white;
+            padding: 10px;
+            font-size: 18px;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            text-align: left;
+            padding-bottom: 20px;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .section {
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .hobbies {
+            background-color: #9CC2E5;
+        }
+        .contacts {
+            background-color: #5CC58F;
+        }
+        .contact-links a {
+            text-decoration: none;
+            color: blue;
+        }
+        .message {
+            background-color: #E58AA8;
+        }
+        form {
+            margin-top: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background-color: orange;
+            color: white;
+            padding: 12px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+
+<header>Моя первая страница</header>
+
+<div class="container">
+    <div class="profile">
+        <img src="image/catleo.webp" alt="Кот Лео">
+        <div>
+            <h2>Привет</h2>
+            <p>Меня зовут Лео</p>
+            <p>Мне 8 лет</p>
+            <p>Я простой домашний кот</p>
+        </div>
+    </div>
+
+    <div class="section hobbies">
+        <h3>Мои хобби</h3>
+        <ul>
+            <li>Лежать на диване</li>
+            <li>Исследовать двор</li>
+            <li>Охотиться</li>
+        </ul>
+    </div>
+
+    <div class="section contacts">
+        <h3>Контакты</h3>
+        <div class="contact-links">
+            <p>1. <a href="#">Facebook</a></p>
+            <p>2. <a href="#">Instagram</a></p>
+            <p>3. <a href="#">TikTok</a></p>
+        </div>
+    </div>
+
+    <div class="section message">
+        <h3>Напишите мне</h3>
+        <form>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" placeholder="Введите ваше имя" required>
+            <label for="message">Текст сообщения:</label>
+            <textarea id="message" rows="4" placeholder="Введите сообщение" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

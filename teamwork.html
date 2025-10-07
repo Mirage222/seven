@@ -1,13 +1,105 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Жёлтое здание</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Командная работа</title>
+  <style>
+    body {
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    /* Легенда с участниками */
+    .legend {
+      margin: 40px;
+    }
+
+    .legend-item {
+      margin: 10px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .color-box {
+      width: 20px;
+      height: 20px;
+      border-radius: 3px;
+    }
+
+    /* Цвета участников */
+    .green { background: #84f3b0; }  
+    .yellow { background: #fef1b0; } 
+    .blue { background: #9cd3f4; }   
+    .purple { background: #e0c6f9; } 
+
+    /* Контейнер зданий */
+    .buildings {
+      display: flex;
+      gap: 50px;
+      margin-top: 50px;
+    }
+
+    /* Общее оформление зданий */
+    .building {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+    }
+
+    /* Ячейки с цветом внутри зданий */
+    .a-blue .blue,
+    .a-yellow .yellow {
+      width: 60px;
+      height: 60px;
+      border-radius: 5px;
+    }
+
+    /* Цвет фона зданий */
+    .a-blue {
+      background: #84cef9;
+    }
+
+    .a-yellow {
+      background: #fef1b0;
+    }
+  </style>
 </head>
 <body>
-  <svg width="400" height="350">
+  <!-- Легенда -->
+  <div class="legend">
+    <div class="legend-item"><div class="color-box green"></div>Талгат</div>
+    <div class="legend-item"><div class="color-box yellow"></div>Чингиз</div>
+    <div class="legend-item"><div class="color-box blue"></div>Марлен</div>
+    <div class="legend-item"><div class="color-box purple"></div>Адиля</div>
+  </div>
+
+  <!-- Здания -->
+  <div class="buildings">
     <!-- Жёлтое здание -->
-    <rect x="150" y="10" width="500" height="600" fill="yellow" />
-  </svg>
+    <div class="building a-yellow">
+      <div class="yellow"></div>
+      <div class="yellow"></div>
+      <div class="yellow"></div>
+      <div class="yellow"></div>
+    </div>
+
+    <!-- Синее здание -->
+    <div class="building a-blue">
+      <div class="blue"></div>
+      <div class="blue"></div>
+      <div class="blue"></div>
+      <div class="blue"></div>
+    </div>
+  </div>
 </body>
 </html>
